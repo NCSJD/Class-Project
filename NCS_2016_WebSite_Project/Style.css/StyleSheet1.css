@@ -1,0 +1,24 @@
+﻿body 
+{
+
+}
+
+a {
+    /*
+    text-decoration: none;
+    color: black;
+    */
+
+}
+
+.hover:hover {
+    
+    color: green;
+    /*background-image:url()*/
+    /*icon:url()*/
+}
+
+.nohover:hover {
+    text-decoration:none;
+    color: black;
+}

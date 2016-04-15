@@ -1,8 +1,72 @@
 ﻿
 @{
-    ViewBag.Title = "Videos";
+//ViewBag.Title = "Videos";
+//ViewBag.Description = "This page is designed to organize vlogs...";
+
+
 }
 
-<h2>Videos</h2>
+<h1>@ViewBag.Title</h1>
+<h2>@ViewBag.Description</h2>
 
+<div class="row">
+    <div class="col-md-4">
+        @ViewBag.Message
+    </div>
+    <div class="col-md-4">
+        @ViewBag.Message
+    </div>
+    <div class="col-md-4">
+        @ViewBag.Message
+    </div>
+</div>
+
+<table class="table table-striped">
+    <tbody>
+        <tr>
+            <td>@Html.ActionLink("Video 1", "Video1", "Home")</td>
+            <td>
+                <a href="https://google.com">Go to Google!</a>
+            </td>
+            <td>@ViewBag.Title</td>
+            <td>@ViewBag.Description</td>
+            <td>@ViewBag.Message</td>
+        </tr>
+        <tr>
+            <td>@Html.ActionLink("Video 1", "Video1", "Home")</td>
+            <td>@ViewBag.Title</td>
+            <td>@ViewBag.Description</td>
+            <td>@ViewBag.Message</td>
+        </tr>
+        <tr>
+            <td>@Html.ActionLink("Video 1", "Video1", "Home")</td>
+            <td>@ViewBag.Title</td>
+            <td>@ViewBag.Description</td>
+            <td>@ViewBag.Message</td>
+        </tr>
+        <tr>
+            <td>@Html.ActionLink("Video 1", "Video1", "Home")</td>
+            <td>@ViewBag.Title</td>
+            <td>@ViewBag.Description</td>
+            <td>@ViewBag.Message</td>
+        </tr>
+        <tr>
+            <td>@ViewBag.Title</td>
+            <td>@ViewBag.Description</td>
+            <td>@ViewBag.Message</td>
+        </tr>
+    </tbody>
+</table>
+
+<hr />
+<div class="visible-lg ">
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/kW9ZqFxRaQY" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="visible-md">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kW9ZqFxRaQY" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="visible-sm visible-xs">
+    <iframe width="200" height="113" src="https://www.youtube.com/embed/kW9ZqFxRaQY" frameborder="0" allowfullscreen></iframe>
+</div>
 <p><a class="btn btn-primary" href="https://www.youtube.com/watch?v=RtSPhginkNQ">Everyone makes mistakes.</a></p>
+

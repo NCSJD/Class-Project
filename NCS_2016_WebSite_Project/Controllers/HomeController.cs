@@ -22,14 +22,27 @@ namespace NCS_2016_WebSite_Project.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contact Information";
 
             return View();
         }
         public ActionResult Videos()
         {
-            ViewBag.Message = "Interesting videos.";
+            ViewBag.Message = "Message: Interesting videos.";
+            ViewBag.Title = "Videos";
+            ViewBag.Description = "This page is designed to organize videos...";
 
+            return View();
+        }
+        public ActionResult Links()
+        {
+            ViewBag.Title = "Links";
+            return View();
+        }
+        public ActionResult Logic()
+        {
+            ViewBag.Message = "Logical thinking";
+            ViewBag.Title = "Logic";
             return View();
         }
     }
