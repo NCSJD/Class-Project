@@ -20,7 +20,19 @@
                 </button>
                 <!--How to change style of button, and words inside buttons? Especially in ActionLink's.-->
 
-                @Html.ActionLink("MyWebPage", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                <!--
+                    @Html.ActionLink("MyWebPage", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                -->
+                <!--
+                <a href=@Url.Action("Index", "Home")>
+                    <img src="~/img/scorpion.jpg" href ="localhost/home/index" />
+                </a>
+                -->
+
+                <a href=@Url.Action("Index", "Home")>
+                    <img src="~/img/home-button.jpg" href="localhost/home/index" />
+                </a>
+                
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -29,6 +41,7 @@
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                     <li>@Html.ActionLink("Videos", "Videos", "Home")</li>
                     <li>@Html.ActionLink("Links", "Links", "Home")</li>
+                    <li>@Html.ActionLink("Logic", "Logic", "Home")</li>
                 </ul>
             </div>
         </div>
