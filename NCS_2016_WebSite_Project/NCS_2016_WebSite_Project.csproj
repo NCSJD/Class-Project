@@ -161,8 +161,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="img\amazon-icon.jpg" />
+    <Content Include="img\att-icon.jpg" />
+    <Content Include="img\calderonus-icon.jpg" />
+    <Content Include="img\chess-icon.jpg" />
+    <Content Include="img\google-icon.jpg" />
     <Content Include="img\home-button.jpg" />
+    <Content Include="img\netflix-icon.jpg" />
     <Content Include="img\scorpion.jpg" />
+    <Content Include="img\Wikipedia-icon2.jpg" />
+    <Content Include="img\youtube-icon.jpg" />
     <Content Include="Scripts\ai.0.15.0-build58334.js" />
     <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Scripts\bootstrap.js" />
